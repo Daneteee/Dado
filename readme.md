@@ -2,4 +2,4 @@
 
 > Atributs
 
-### Metode
+### Metodes
