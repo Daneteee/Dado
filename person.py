@@ -11,7 +11,7 @@ class Person:
     def __str__(self):
         return f"{self.name}, {self.last_name}, {self.date_born}"
 
-    def age_usu(self):
+    def user_ago(self):
         date_now = datetime.now()
         data_usu = datetime.strptime(self.date_born, "%d-%m-%Y")
         date_now_date = date_now.date()
@@ -20,7 +20,7 @@ class Person:
         print(f"Age in years to {self.name}, {self.last_name}: {total_years}")
         return total_years
 
-    def is_bigger(self):
+    def is_major(self):
         if self.age_usu() >= 18:
             return True
         else:
