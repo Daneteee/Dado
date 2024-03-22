@@ -8,6 +8,7 @@ Crea un sistema de gestió de voluntariat que connecti voluntaris amb projectes 
 ### Metodes
 
 ---
+---
 
 # Persona
 
@@ -16,6 +17,7 @@ Crea un sistema de gestió de voluntariat que connecti voluntaris amb projectes 
 ### Metodes
 
 ---
+---
 
 # Input
 
@@ -23,6 +25,7 @@ Crea un sistema de gestió de voluntariat que connecti voluntaris amb projectes 
 
 ### Metodes
 
+---
 ---
 
 # Proyecto
