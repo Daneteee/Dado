@@ -2,10 +2,10 @@ from datetime import datetime
 
 
 class Person:
-    def __init__(self, name, last_name, date_born, phone):
+    def __init__(self, name, last_name, date_birth, phone):
         self.name = name
         self.last_name = last_name
-        self.date_born = date_born
+        self.date_born = date_birth
         self.phone = phone
 
     def __str__(self):

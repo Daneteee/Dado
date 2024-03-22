@@ -1,5 +1,6 @@
 from getpass import getpass
 from datetime import *
+from pyfiglet import Figlet
 
 
 class Input_:
@@ -116,6 +117,8 @@ class Input_:
         leave = False
         while not leave:
             print(message)
+            if len(options) - 1:
+                options["0"] = "Exit"
             for key, value in options.items():
                 print(f"    {key} - {value}")
 
@@ -123,7 +126,7 @@ class Input_:
 
             if option == "0":
                 leave = True
-            elif option in options:
+            elif option.upper() in options:
                 return options[option]
             else:
                 print("ERROR: Opció invàlida.")
@@ -148,3 +151,8 @@ class Input_:
                 print("ERROR: Dígits inválids.")
 
         return str(digits)
+
+    @staticmethod
+    def print_title(text):
+        f = Figlet(font="slant")
+        print(f.renderText(text))
