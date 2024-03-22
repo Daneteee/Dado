@@ -22,7 +22,7 @@ Crea un sistema de gestió de voluntariat que connecti voluntaris amb projectes 
 
 # Proyecto
 
-> 1. nom
+> 1. name
 > 2. description
 > 3. start_date
 > 4. end_date
