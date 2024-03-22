@@ -6,15 +6,26 @@ Crea un sistema de gestió de voluntariat que connecti voluntaris amb projectes 
 > Atributs
 
 ### Metodes
-<ol>
-</ol>
+
+---
+
 # Persona
 
 > Atributs
 
 ### Metodes
 
+---
+
 # Input
+
+> Atributs
+
+### Metodes
+
+---
+
+# Proyecto
 
 > Atributs
 
