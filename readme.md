@@ -8,15 +8,16 @@ Crea un sistema de gestió de voluntariat que connecti voluntaris amb projectes 
 ### Metodes
 
 ---
----
 
 # Persona
 
-> Atributs
+> 1. rol
+> 2. DNI
+> 3. nom
+> 4. cognom
 
 ### Metodes
 
----
 ---
 
 # Input
@@ -26,9 +27,16 @@ Crea un sistema de gestió de voluntariat que connecti voluntaris amb projectes 
 ### Metodes
 
 ---
----
 
 # Proyecto
+
+> Atributs
+
+### Metodes
+
+---
+
+# Arxiu
 
 > Atributs
 
