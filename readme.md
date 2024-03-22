@@ -11,10 +11,10 @@ Crea un sistema de gestió de voluntariat que connecti voluntaris amb projectes 
 
 # Persona
 
-> 1. rol
+> 1. role
 > 2. DNI
-> 3. nom
-> 4. cognom
+> 3. name
+> 4. last_name
 
 ### Metodes
 
@@ -22,7 +22,12 @@ Crea un sistema de gestió de voluntariat que connecti voluntaris amb projectes 
 
 # Proyecto
 
-> Atributs
+> 1. nom
+> 2. description
+> 3. start_date
+> 4. end_date
+> 5. cost
+> 6. id
 
 ### Metodes
 
